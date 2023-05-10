@@ -10,7 +10,7 @@ class UsuarioController {
         $usuario = new Usuario();
 
         //Utilizamos el método de dicha clase.
-        $todosLosUsuarios = $usuario -> conseguirTodos();
+        $todosLosUsuarios = $usuario -> conseguirTodos('usuarios');
 
         //Importamos la vista para mostrar el resultado del método ahí.
         require_once 'views/usuarios/mostrar-todos.php';

@@ -7,6 +7,11 @@ class Usuario extends ModeloBase{
     public $email;
     public $password;
 
+    //Heredar constructor Padre
+    public function __construct(){
+        parent::__construct();
+    }
+
     //GETTERS
     public function getNombre(){
         return $this->nombre;

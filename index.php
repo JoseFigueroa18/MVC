@@ -1,9 +1,8 @@
 <h1>Bienvenido a MVC</h1>
 
 <?php 
-//Añadimos los respectivos require
-require_once 'controllers/usuarioController.php';
-require_once 'controllers/notaController.php';
+//Añadimos los respectivos require/ mediante un autoLoad
+require_once 'autoLoad.php';
 
 //Controlador Frontal:
 //Se encarga de cargar un fichero, una acción de lo que le llega por la url, es el unico fichero que se encarga de cargarlo todo.
