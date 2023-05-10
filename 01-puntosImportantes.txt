@@ -1,0 +1,32 @@
+1. ¿Qué es y cómo funciona?
+    Es una forma de programar y una forma de optimizar la forma en la que programamos, 
+    esto favorece para no mezclar diferentes lenguajes de programación, separlo todo en tareas.
+
+    Estas se dividen en 3 niveles de abstración:
+    1. Modelo o Negocio: Es la parte de las clases y métodos que se 
+               comunican con la base de datos y hacen una logica compleja.
+    
+    2. Vista: Es la encargada de mostrarle la información al usuario.
+
+    3. Controlador: Es el intemediario entre la vista y el modelo. 
+                    Se encarga de controlar las interacciones de usuario con la vista.
+                    Crea objetos, llama metodos, logica, etc.
+
+
+2. ¿Qué pasos se realizan en el MVC?
+    1. El usuario está tranquilamente con su navegador WEB, navegando en nuestra página.
+    2. Rellena un formulario y lo envia (El usuario realiza una petición).
+    3. El controlador captura la petición y procesa los datos que se le enviaron.
+    4. El controlador realiza una petición de datos al modelo referente a lo que se le envió.
+    5. El modelo interactua con la base de datos (Elimina, Modifica, Inserta, etc).
+    6. El modelo envia datos al controlador.
+    7. El controlador hará el mismo procedimiento de captura y proceso de datos, pero esta vez para la vista.
+    8. La vista mustra la información que le envió el controlador de vuelta al usuario.
+
+
+3. Implementación
+4. Controlador frontal
+5. Autocarga de clases
+6. MySQLi
+7. Modelos y consultas
+
