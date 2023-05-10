@@ -1,6 +1,7 @@
 <?php 
+require_once 'modeloBase.php';
 
-class Usuario {
+class Usuario extends ModeloBase{
     public $nombre;
     public $apellidos;
     public $email;
@@ -39,11 +40,6 @@ class Usuario {
 
     public function setPassword($password){
         $this->password = $password;
-    }
-
-    //CONSULTAS A BASE DE DATOS
-    public function conseguirTodos(){
-        return "Sacando todos los usuarios";
     }
 
 }
